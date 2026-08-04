@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jajananupix.com/sitemap.xml
+Sitemap: https://jajananupix.vercel.app/sitemap.xml
