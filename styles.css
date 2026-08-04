@@ -89,7 +89,7 @@
   @media (max-width:760px){
     .nav-links{ display:none; }
     .hamburger{ display:flex; }
-    .brand{ display:none; }
+    .brand-mark{ display:none; }
     .mobile-menu{ display:flex; }
   }
 
