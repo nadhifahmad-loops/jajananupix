@@ -1,0 +1,6 @@
+# robots.txt untuk Jajanan Upix
+# TODO: ganti jajananupix.com dengan domain asli setelah website di-hosting
+User-agent: *
+Allow: /
+
+Sitemap: https://jajananupix.com/sitemap.xml
