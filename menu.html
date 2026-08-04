@@ -249,7 +249,11 @@
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
   const filterBtns = document.querySelectorAll('.filter-btn');
+  const grid = document.getElementById('menuGrid');
   const prodCards = document.querySelectorAll('#menuGrid .prod-card');
+  Array.from(prodCards)
+    .sort((a, b) => a.querySelector('h4').textContent.trim().localeCompare(b.querySelector('h4').textContent.trim(), 'id'))
+    .forEach(card => grid.appendChild(card));
   filterBtns.forEach(btn=>{
     btn.addEventListener('click', ()=>{
       filterBtns.forEach(b=>b.classList.remove('active'));

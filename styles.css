@@ -229,6 +229,7 @@
 
   /* ---------- FOOTER ---------- */
   footer{ background:var(--choco); color:var(--cream); padding:44px 0 26px; }
+  footer .wrap{ max-width:none; }
   .foot-grid{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:24px; margin-bottom:28px; }
   .foot-brand{ font-family:'Baloo 2'; font-weight:800; font-size:1.3rem; }
   .foot-links{ display:flex; gap:22px; font-size:.9rem; flex-wrap:wrap; }
